@@ -1,2 +1,4 @@
 #!/bin/bash
+yum update -y
 yum install -y httpd
+yum install -y httpd24 php56 mysql55-server php56-mysqlnd
